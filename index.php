@@ -45,9 +45,9 @@
     <body>
         <?php 
             $student = [
-                array("firstName"=>"James Mickel", "middleName"=>"Cao","lastName"=>"Ricarte", "age"=>21, "course"=>"BSIT", "year"=>1, "enrolled"=>1, "grade"=>92.1),
-                array("firstName"=>"Charles", "middleName"=>"Marfil","lastName"=>"Alamares", "age"=>22, "course"=>"BSIT", "year"=>1, "enrolled"=>1, "grade"=>92.1),
-                array("firstName"=>"Cedric", "middleName"=>"Dino","lastName"=>"Naño", "age"=>22, "course"=>"BSIT", "year"=>1, "enrolled"=>1, "grade"=>92.1)
+                array("firstName"=>"James Mickel", "middleName"=>"Cao","lastName"=>"Ricarte", "age"=>21, "course"=>"BSIT", "year"=>1, "enrolled"=>"yes", "grade"=>92.1),
+                array("firstName"=>"Charles", "middleName"=>"Marfil","lastName"=>"Alamares", "age"=>22, "course"=>"BSIT", "year"=>1, "enrolled"=>"yes", "grade"=>92.1),
+                array("firstName"=>"Cedric", "middleName"=>"Dino","lastName"=>"Naño", "age"=>22, "course"=>"BSIT", "year"=>1, "enrolled"=>"yes", "grade"=>92.1)
             ];
 
             //Custom Sorting, I want to sort based on their last name
